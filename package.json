@@ -4,11 +4,14 @@
   "description": "Simple domain availability checker",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/mocha/bin/mocha"
   },
   "author": "Filip Kostovski",
   "license": "ISC",
   "dependencies": {
     "express": "^4.13.3"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.3"
   }
 }
